@@ -16,21 +16,23 @@ var now = new Date();
 var min = now.getUTCMinutes();
 var sec = now.getUTCSeconds();
 now = (min * 60 + sec) % 300;
-patch = Math.floor(Math.random() * 7);
-var url = "https://pdwebparty.herokuapp.com/?url=https://joelrust.com/interlace/" + now + "-" + patch + ".pd";
+patch = Math.floor(Math.random() * 6);
+// patch = 0;
 
-
+var url = "https://pdwebparty.herokuapp.com/?url=https://raw.githubusercontent.com/joelrust/an-intertwining/main/replace_em/output_stph-" + patch + ".pd/" + now + "-" + patch + ".pd";
 
 function update() {
   now = new Date();
 min = now.getUTCMinutes();
 sec = now.getUTCSeconds();
 now = (min * 60 + sec) % 300;
-patch = Math.floor(Math.random() * 7);
-url = "https://pdwebparty.herokuapp.com/?url=https://joelrust.com/interlace/" + now + "-" + patch + ".pd";
+patch = Math.floor(Math.random() * 6);
+// patch = 0;
+
+var url = "https://pdwebparty.herokuapp.com/?url=https://raw.githubusercontent.com/joelrust/an-intertwining/main/replace_em/output_stph-" + patch + ".pd/" + now + "-" + patch + ".pd";
 document.getElementById("link").href = url};
 
-setInterval (update, 1000);
+// setInterval (update, 1000);
 
  function redirectFunc() {
 

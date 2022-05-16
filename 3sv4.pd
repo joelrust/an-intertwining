@@ -4,13 +4,13 @@
 #X text 47 27 click to start;
 #X obj 1 151 cnv 15 200 100 placeh35675543456758 line1 you are a :
 6 12 0 14 -233017 -66577 0;
-#X obj 1 176 cnv 15 200 100 placeh356756 line2 mercurial matsutake
+#X obj 1 176 cnv 15 200 100 placeh356756 line2 pensive matsutake
 6 12 0 14 -233017 -159808 0;
 #X obj 41 238 hsl 128 15 0 2 0 1 volslide qweasfd volume -2 -8 0 10
 -262144 -1 -1 6350 1;
 #X obj 51 49 bng 99 250 50 0 mainclick lkjghxfzdxcbv empty 17 7 0 10
 -262144 -1 -1;
-#N canvas 665 571 1910 1256 g 1;
+#N canvas 688 960 1910 1256 g 1;
 #X obj 585 564 unpack f f f;
 #X obj 399 753 / 127;
 #X obj 559 699 / 127;
@@ -1988,4 +1988,9 @@ LIMIT 135 7 0 10 -262144 -1 -1 300 1;
 #X connect 9 4 10 0;
 #X restore 5 101 pd c;
 #X obj 285 52 loadbang;
-#X connect 8 0 5 0;
+#X obj 296 126 until;
+#X msg 285 77 5;
+#X obj 296 151 s mainclick;
+#X connect 8 0 10 0;
+#X connect 9 0 11 0;
+#X connect 10 0 9 0;

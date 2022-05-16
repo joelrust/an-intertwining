@@ -1,16 +1,16 @@
-#N canvas 897 254 224 300 12;
+#N canvas 897 254 704 300 12;
 #X obj 1 1 cnv 15 200 150 placeh22 title an intertwining 20 12 0
 18 -233017 -66577 0;
 #X text 47 27 click to start;
 #X obj 1 151 cnv 15 200 100 placeh35675543456758 line1 you are a :
 6 12 0 14 -233017 -66577 0;
-#X obj 1 176 cnv 15 200 100 placeh356756 line2 empty 6 12 0 14 -233017
--159808 0;
+#X obj 1 176 cnv 15 200 100 placeh356756 line2 mercurial matsutake
+6 12 0 14 -233017 -159808 0;
 #X obj 41 238 hsl 128 15 0 2 0 1 volslide qweasfd volume -2 -8 0 10
 -262144 -1 -1 6350 1;
 #X obj 51 49 bng 99 250 50 0 mainclick lkjghxfzdxcbv empty 17 7 0 10
 -262144 -1 -1;
-#N canvas 650 156 1910 1256 g 1;
+#N canvas 665 571 1910 1256 g 1;
 #X obj 585 564 unpack f f f;
 #X obj 399 753 / 127;
 #X obj 559 699 / 127;
@@ -1012,8 +1012,6 @@
 #X connect 188 2 198 0;
 #X connect 188 3 199 0;
 #X connect 189 0 95 0;
-#X connect 189 0 190 0;
-#X connect 192 0 193 0;
 #X connect 193 1 191 0;
 #X connect 193 2 194 0;
 #X connect 194 0 191 0;
@@ -1040,7 +1038,7 @@
 #X connect 216 2 218 0;
 #X connect 218 0 217 0;
 #X restore 5 76 pd g;
-#N canvas 755 25 786 416 c 0;
+#N canvas 755 25 786 416 c 1;
 #N canvas 583 61 1977 1351 title 0;
 #X obj 39 692 text define label1;
 #X obj 547 313 text set label1;
@@ -1153,7 +1151,7 @@ echidna marmot platypus \, ?? ?? ?? test;
 #X connect 50 0 38 1;
 #X connect 51 0 47 1;
 #X restore 5 99 pd title;
-#N canvas 626 211 450 300 counter 0;
+#N canvas 626 211 450 300 counter 1;
 #N canvas 1078 62 602 834 getter 0;
 #X obj 237 162 moses, f 10;
 #X obj 237 122 random 10, f 6;
@@ -1229,7 +1227,7 @@ echidna marmot platypus \, ?? ?? ?? test;
 #X connect 27 0 24 0;
 #X connect 27 0 23 0;
 #X restore 99 27 pd getter;
-#N canvas 593 25 1087 1005 shifter 0;
+#N canvas 1007 146 1087 1005 shifter 1;
 #X obj 194 253 metro 1000;
 #X obj 195 300 f;
 #X obj 228 301 + 1;
@@ -1989,3 +1987,5 @@ LIMIT 135 7 0 10 -262144 -1 -1 300 1;
 #X connect 9 3 11 0;
 #X connect 9 4 10 0;
 #X restore 5 101 pd c;
+#X obj 285 52 loadbang;
+#X connect 8 0 5 0;

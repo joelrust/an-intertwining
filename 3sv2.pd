@@ -4,13 +4,13 @@
 #X text 47 27 click to start;
 #X obj 1 151 cnv 15 200 100 placeh35675543456758 line1 you are a :
 6 12 0 14 -233017 -66577 0;
-#X obj 1 176 cnv 15 200 100 placeh356756 line2 energetic chanterelle
-6 12 0 14 -233017 -159808 0;
+#X obj 1 176 cnv 15 200 100 placeh356756 line2 empty 6 12 0 14 -233017
+-159808 0;
 #X obj 41 238 hsl 128 15 0 2 0 1 volslide qweasfd volume -2 -8 0 10
 -262144 -1 -1 6350 1;
 #X obj 51 49 bng 99 250 50 0 mainclick lkjghxfzdxcbv empty 17 7 0 10
 -262144 -1 -1;
-#N canvas 1184 250 1910 1256 g 1;
+#N canvas 650 156 1910 1256 g 1;
 #X obj 585 564 unpack f f f;
 #X obj 399 753 / 127;
 #X obj 559 699 / 127;
@@ -703,9 +703,9 @@
 #X msg 10 -239 3;
 #X obj 726 54 f;
 #X obj 726 79 spigot 0;
-#X obj 795 4 r openg;
+#X obj 792 9 r openg;
 #X obj 795 29 t b b;
-#X msg 830 70 1;
+#X msg 829 53 1;
 #X obj 57 49 r mainclick;
 #X msg 92 149 1;
 #X obj 119 114 s openg;
@@ -713,8 +713,8 @@
 #X obj 11 164 s textgo;
 #X obj 829 130 s getpit;
 #X obj 58 74 t b b b;
-#X obj 267 156 s randstopper;
-#X msg 251 118 0;
+#X obj 225 231 s randstopper;
+#X msg 209 193 0;
 #X connect 0 0 36 0;
 #X connect 0 1 37 0;
 #X connect 0 2 38 0;
@@ -1012,6 +1012,8 @@
 #X connect 188 2 198 0;
 #X connect 188 3 199 0;
 #X connect 189 0 95 0;
+#X connect 189 0 190 0;
+#X connect 192 0 193 0;
 #X connect 193 1 191 0;
 #X connect 193 2 194 0;
 #X connect 194 0 191 0;

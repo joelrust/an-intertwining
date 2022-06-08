@@ -1,0 +1,1 @@
+open thispatcherinclude "Macintosh HD:/Users/joelrust/Current Projects/an intertwining/chorder/onemax.txt"include "Macintosh HD:/Users/joelrust/Current Projects/an intertwining/chorder/twomax.txt"include "Macintosh HD:/Users/joelrust/Current Projects/an intertwining/chorder/threemax.txt"

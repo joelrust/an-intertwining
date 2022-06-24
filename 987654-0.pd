@@ -1,11 +1,11 @@
-#N canvas 1238 954 302 289 12;
+#N canvas 594 298 302 289 12;
 #X obj 1 1 cnv 15 300 150 placeh22 title Forest (an intertwining)
 22 12 0 18 #e0e0e0 #404040 0;
 #X text 99 26 click to start;
 #X obj 1 151 cnv 15 300 100 placeh35675543456758 line1 you are a :
 12 12 0 14 #e0e0e0 #404040 0;
 #X obj 1 176 cnv 15 300 100 placeh356756 line2 empty 12 12 0 14 #e0e0e0
-#2dd14f 0;
+#312107 0;
 #X obj 26 247 hsl 250 20 0 4 0 1 volslide volslideset volume -2 -8
 0 10 #fcfcfc #000000 #000000 8715 1;
 #N canvas 1140 136 1326 1027 g 0;
@@ -3595,7 +3595,7 @@
 0;
 #X obj 8 43 cnv 15 60 30 x debug empty 20 12 0 14 #e0e0e0 #f7f7f7 0
 ;
-#N canvas 1270 654 786 758 c 0;
+#N canvas 326 543 786 758 c 1;
 #N canvas 817 88 1680 1005 title 0;
 #X obj 39 692 text define label1;
 #X obj 547 313 text set label1;
@@ -3978,7 +3978,7 @@ spider lobster crawfish;
 #X connect 64 0 65 0;
 #X connect 65 0 66 0;
 #X restore 5 99 pd title;
-#N canvas 1160 385 1368 1027 counter 0;
+#N canvas 1133 972 1368 1027 counter 0;
 #N canvas 1163 25 757 1027 getter 0;
 #X obj 237 162 moses, f 10;
 #X obj 237 122 random 10, f 6;
@@ -4076,7 +4076,7 @@ spider lobster crawfish;
 #X connect 36 0 32 0;
 #X connect 37 0 34 0;
 #X restore 99 27 pd getter;
-#N canvas 800 65 1607 1295 setter 0;
+#N canvas 908 1374 1607 1295 setter 1;
 #X obj 646 187 r sublb;
 #X obj 265 72 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000;

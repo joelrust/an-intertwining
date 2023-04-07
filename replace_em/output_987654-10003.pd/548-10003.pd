@@ -492,7 +492,7 @@ crab orb-weaver spider house spider;
 #X obj 101 742 s mainlength;
 #X obj 531 330 t b b;
 #X msg 286 990 symbol one;
-#X msg 373 990 symbol two;
+#X msg 373 990 symbol one;
 #X obj 976 428 text define -k one;
 #A set 61 62 67 72 77 \, 84 62 67 72 77 \, 61 62 67 72 77 \, 61 62
 67 72 77 \, 84 62 67 72 77 \, 113 62 63 65 67 70 72 74 75 77 \, 61
@@ -600,7 +600,7 @@ crab orb-weaver spider house spider;
 79 \, 61 55 56 58 60 62 63 65 67 68 70 72 74 75 77 79 \, 61 55 56 58
 60 62 63 65 67 68 70 72 74 75 77 79 \,;
 #X msg 484 1034 symbol oneb;
-#X msg 571 1034 symbol twob;
+#X msg 571 1034 symbol oneb;
 #X obj 547 1075 s textsetterb;
 #X msg 919 382 read chorder/one.txt;
 #X msg 1106 385 read chorder/two.txt;
@@ -664,8 +664,8 @@ crab orb-weaver spider house spider;
 #X obj 334 388 sel 13579;
 #X msg 368 424 4;
 #X obj 383 673 t b;
-#X msg 396 946 symbol three;
-#X msg 594 990 symbol threeb;
+#X msg 396 946 symbol one;
+#X msg 594 990 symbol oneb;
 #X obj 254 1058 print chords;
 #X obj 166 1116 symbol;
 #X msg 166 1140 label \$1;
